@@ -7,8 +7,9 @@ import Projects from './Components/Projects'
 
 function App() {
 
+ 
   return (
-    <div>
+    <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://toppng.com/uploads/preview/textured-backgrounds-for-websites-11553984870u603vxlgma.jpg')" }}>
       <Menu />
       <Main />
       <Experience />
